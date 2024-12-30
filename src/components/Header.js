@@ -1,7 +1,7 @@
-import { useDispatch, useSelector } from "react-redux";
-import {HAMBURGER_ICON, USER_ICON, YOUTUBE_SEARCH_API, YT_LOGO }from "../utils/constants"
-import { toggleMenu } from "../utils/appSlice";
 import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { toggleMenu } from "../utils/appSlice";
+import { HAMBURGER_ICON, USER_ICON, YOUTUBE_SEARCH_API, YT_LOGO } from "../utils/constants";
 import { cacheResults } from "../utils/searchSlice";
 
 const Header = () =>{
